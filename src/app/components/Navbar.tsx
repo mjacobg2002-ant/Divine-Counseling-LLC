@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router";
 import { Menu, X, Phone, ArrowRight } from "lucide-react";
-import logo from "../asset/4fa04261e3f371c7b25530573bb7d9d20806b31e.png";
+import logo from "../../assets/4fa04261e3f371c7b25530573bb7d9d20806b31e.png";
 
 const navLinks = [
   { label: "Home", path: "/" },
