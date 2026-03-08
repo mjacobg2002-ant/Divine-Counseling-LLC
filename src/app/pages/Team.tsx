@@ -5,20 +5,20 @@ import { useState, useEffect, useCallback } from "react";
 import { SEO, breadcrumbSchema } from "../components/SEO";
 
 // All team headshots
-import imgCaraBaltimore from "../../asset/86d7990bd9f47a7fbe87aff443f5f69504799ace.png";
-import imgAdaliaDominique from "../../asset/1df124f8be9c1a330586b09d7b26f5ca33048ab2.png";
-import imgBernadettePruitt from "../../asset/5260c9c040e62bab7863e99bf0d08b09a146816e.png";
-import imgChristinaWiley from "../../asset/01b648644b497561467993b95e2df23e42f37cd4.png";
-import imgCourtneyHayes from "../../asset/47ca2b8604f536dea34b3a887675bb3c57198396.png";
-import imgDanielleMcCreary from "../../asset/b0ee172d098318dff595010eb377cbce90f45748.png";
-import imgDiorNdiaye from "../../asset/03cc2b281bdd38fdc2fa374a0732de147e56bdce.png";
-import imgErinSoutherington from "../../asset/ab142560c5852f0915279e6947452f4e7ad4485b.png";
-import imgElizabethKraft from "../../asset/e7a5f0570befb38b8be0bc74253aef453a49b9f8.png";
-import imgPauletteHendricks from "../../asset/b4797a6aad019401bcf4bd95aaf13c4d835d048c.png";
-import imgRisikaAkanbiYusuff from "../../asset/295f644386958f6f4e1f76a2facbc035c42476e0.png";
-import imgShareenCampbell from "../../asset/3d32df85f14ad09978eb455b0467bd7c7c4e1ba2.png";
-import imgWrenDouglass from "../../asset/e09c86c8756b2627d906457b16d2646d85a33bf7.png";
-import imgTiffanyMartin from "../../asset/4dd943eb8b2ac4b084f81ddd91ea995e21b40ee2.png";
+import imgCaraBaltimore from "../../assets/86d7990bd9f47a7fbe87aff443f5f69504799ace.png";
+import imgAdaliaDominique from "../../assets/1df124f8be9c1a330586b09d7b26f5ca33048ab2.png";
+import imgBernadettePruitt from "../../assets/5260c9c040e62bab7863e99bf0d08b09a146816e.png";
+import imgChristinaWiley from "../../assets/01b648644b497561467993b95e2df23e42f37cd4.png";
+import imgCourtneyHayes from "../../assets/47ca2b8604f536dea34b3a887675bb3c57198396.png";
+import imgDanielleMcCreary from "../../assets/b0ee172d098318dff595010eb377cbce90f45748.png";
+import imgDiorNdiaye from "../../assets/03cc2b281bdd38fdc2fa374a0732de147e56bdce.png";
+import imgErinSoutherington from "../../assets/ab142560c5852f0915279e6947452f4e7ad4485b.png";
+import imgElizabethKraft from "../../assets/e7a5f0570befb38b8be0bc74253aef453a49b9f8.png";
+import imgPauletteHendricks from "../../assets/b4797a6aad019401bcf4bd95aaf13c4d835d048c.png";
+import imgRisikaAkanbiYusuff from "../../assets/295f644386958f6f4e1f76a2facbc035c42476e0.png";
+import imgShareenCampbell from "../../assets/3d32df85f14ad09978eb455b0467bd7c7c4e1ba2.png";
+import imgWrenDouglass from "../../assets/e09c86c8756b2627d906457b16d2646d85a33bf7.png";
+import imgTiffanyMartin from "../../assets/4dd943eb8b2ac4b084f81ddd91ea995e21b40ee2.png";
 
 interface TeamMember {
   name: string;
