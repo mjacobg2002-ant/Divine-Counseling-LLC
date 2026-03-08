@@ -114,8 +114,11 @@ export function Navbar() {
         </nav>
 
         {/* Mobile menu — full screen overlay */}
-        {mobileOpen && (
-          <div className="lg:hidden fixed inset-0 top-[72px] bg-white z-40 overflow-y-auto">
+      </header>
+
+            {/* Mobile menu — full screen overlay (must be outside header because backdrop-blur creates a containing block that breaks fixed positioning) */}
+       {mobileOpen && (
+          <div className="lg:hidden fixed inset-0 top-[72px] bg-white z-60 overflow-y-auto">
             <div className="px-5 py-4">
               <div className="space-y-1">
                 {navLinks.map((link) => (
@@ -161,8 +164,7 @@ export function Navbar() {
             </div>
           </div>
         )}
-      </header>
-
+      
       {/* Sticky mobile bottom CTA bar — hidden on referral/contact pages */}
       {!["/referral", "/contact"].includes(location.pathname) && (
         <div className="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-lg border-t border-[#5B2C6F]/10 px-4 py-3 flex gap-2 shadow-[0_-2px_10px_rgba(0,0,0,0.08)]">
