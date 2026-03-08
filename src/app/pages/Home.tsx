@@ -352,7 +352,7 @@ export function Home() {
                 src="https://images.unsplash.com/photo-1758778932790-da96c9f06969?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxCbGFjayUyMGNvbW11bml0eSUyMGdhdGhlcmluZyUyMHN1cHBvcnQlMjBtZW50YWwlMjBoZWFsdGglMjBldmVudCUyMG91dGRvb3J8ZW58MXx8fHwxNzcyOTQ2MDU0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                 alt="Community support and mental health outreach event"
                 className="w-full h-[420px] object-cover object-top"
-                style={{ objectPosition: '50% 15%' }}
+                style={{ objectPosition: '50% 20%' }}
               />
             </motion.div>
           </div>
