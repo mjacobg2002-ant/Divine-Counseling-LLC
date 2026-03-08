@@ -53,7 +53,7 @@ export function Navbar() {
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-[72px] sm:h-[80px] lg:h-[96px]" aria-label="Main navigation">
           {/* Logo */}
           <Link to="/" className="flex-shrink-0" aria-label="Divine Counseling Home">
-            <img src={logo} alt="Divine Counseling LLC" className="h-[4.5rem] sm:h-[5.25rem] lg:h-[6.5rem] w-auto" />
+            <img src={logo} alt="Divine Counseling LLC" className="h-[5.5rem] sm:h-[6.75rem] lg:h-[8.5rem] w-auto" />
           </Link>
 
           {/* Desktop nav — centered */}
