@@ -62,7 +62,7 @@ export function Navbar() {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`px-2.5 xl:px-3 py-2 rounded-md text-[12.5px] font-[Inter,sans-serif] tracking-wide transition-all duration-200 whitespace-nowrap ${
+                className={`px-2.5 xl:px-3 py-2 rounded-md text-[13.5px] font-[Inter,sans-serif] tracking-wide transition-all duration-200 whitespace-nowrap ${
                   location.pathname === link.path
                     ? "text-[#5B2C6F] bg-[#5B2C6F]/8"
                     : "text-[#2F2F2F]/80 hover:text-[#5B2C6F] hover:bg-[#5B2C6F]/4"
