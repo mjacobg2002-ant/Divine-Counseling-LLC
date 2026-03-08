@@ -50,7 +50,7 @@ export function Navbar() {
         </div>
 
         {/* Main nav bar */}
-        <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-[100px] sm:h-[116px] lg:h-[144px]" aria-label="Main navigation">
+        <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-[80px] sm:h-[92px] lg:h-[112px]" aria-label="Main navigation">
           {/* Logo */}
           <Link to="/" className="flex-shrink-0" aria-label="Divine Counseling Home">
             <img src={logo} alt="Divine Counseling LLC" className="h-[5.5rem] sm:h-[6.75rem] lg:h-[8.5rem] w-auto" />
