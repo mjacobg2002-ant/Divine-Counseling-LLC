@@ -510,8 +510,8 @@ export function Team() {
             className="bg-gradient-to-br from-[#F8F5FA] to-white rounded-3xl p-8 md:p-12 border border-[#5B2C6F]/6 cursor-pointer hover:shadow-lg transition-all duration-300 group"
             onClick={() => setModalIndex(0)}
           >
-            <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-start">
-               <div className="w-full max-w-[320px] aspect-[3/4] md:w-72 md:h-72 md:aspect-auto rounded-2xl overflow-hidden flex-shrink-0 shadow-lg self-center md:self-start">
+            <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-stretch">
+               <div className="w-full max-w-[280px] aspect-[3/4] md:max-w-none md:w-72 lg:w-80 md:aspect-auto rounded-2xl overflow-hidden flex-shrink-0 shadow-lg self-center md:self-auto">
                 <img
                   src={featured.image!}
                   alt={featured.name}
