@@ -310,11 +310,11 @@ function BioModal({
                   <img
                     src={member.image}
                     alt={member.name}
-                    className="w-full h-72 sm:h-80 md:h-auto md:aspect-[3/4] object-cover"
+                    className="w-full aspect-[3/4] object-cover"
                     style={{ objectPosition: member.photoPosition || "center 20%" }}
                   />
                 ) : (
-                  <div className="w-full h-72 sm:h-80 md:h-auto md:aspect-[3/4] flex items-center justify-center">
+                 <div className="w-full aspect-[3/4] flex items-center justify-center">
                     <span className="text-7xl text-[#5B2C6F]/15" style={{ fontFamily: "'Playfair Display', serif" }}>
                       {member.name.split(" ").map(n => n[0]).join("")}
                     </span>
@@ -511,11 +511,12 @@ export function Team() {
             onClick={() => setModalIndex(0)}
           >
             <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-start">
-              <div className="w-52 h-52 md:w-72 md:h-72 rounded-2xl overflow-hidden flex-shrink-0 shadow-lg self-center md:self-start">
+               <div className="w-full max-w-[320px] aspect-[3/4] md:w-72 md:h-72 md:aspect-auto rounded-2xl overflow-hidden flex-shrink-0 shadow-lg self-center md:self-start">
                 <img
                   src={featured.image!}
                   alt={featured.name}
-                  className="w-full h-full object-cover object-top"
+                  className="w-full h-full object-cover"
+                  style={{ objectPosition: featured.photoPosition || "center 15%" }}
                 />
               </div>
               <div className="flex-1">
